@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=2072&ixlib=rb-4.0.3",
+    "title": "E-Commerce Platform",
+    "description": "A full-featured e-commerce solution built with React and Node.js.",
+    "tags": ["React", "Node.js", "MongoDB", "Redux"],
+    "repolink": "https://github.com/username/ecommerce",
+    "demolink": "https://ecommerce-demo.com"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3",
+    "title": "Task Management App",
+    "description": "Collaborative task management tool with real-time updates.",
+    "tags": ["Vue.js", "Firebase", "Tailwind CSS"],
+    "repolink": "https://github.com/username/taskmaster",
+    "demolink": "https://taskmaster-app.com"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1555099962-4199c345e5dd?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    "title": "AI Image Generator",
+    "description": "Generate unique images using OpenAI's DALL-E API.",
+    "tags": ["Next.js", "OpenAI API", "Drizzle ORM"],
+    "repolink": "https://github.com/username/ai-gen",
+    "demolink": null
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1560732488-6b0df240254a?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    "title": "Crypto Dashboard",
+    "description": "Real-time cryptocurrency tracking dashboard with charts.",
+    "tags": ["React", "D3.js", "CoinGecko API"],
+    "repolink": "https://github.com/username/crypto-dash",
+    "demolink": "https://crypto-dash-live.com"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    "title": "Portfolio Website",
+    "description": "Modern minimalist portfolio website template.",
+    "tags": ["HTML", "SCSS", "JavaScript"],
+    "repolink": "https://github.com/username/portfolio",
+    "demolink": "https://my-portfolio.com"
+  }
+]
