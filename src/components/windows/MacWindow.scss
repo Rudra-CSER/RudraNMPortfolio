@@ -40,8 +40,17 @@
         background-color: rgb(82, 238, 30);
      }
      }
-    
-}
-.main-content{
+     .main-content{
     height: 100%;
+
+}
+
+*::-webkit-scrollbar{
+    width: 8px;
+}
+*::-webkit-scrollbar-thumb{
+    background: rgba(110, 110, 110, 0.751);
+    border-radius: 5px;
+}
+    
 }
