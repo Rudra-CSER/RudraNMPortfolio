@@ -17,14 +17,18 @@ const GitCard = ({data= {id :1 , image:"",title:"", description:"", tags:[], rep
     </div>
 }
 
-const Github = () => {
+const Github = ({windowName, setWindowsState, x, y}) => {
   return (
-    <MacWindow>
+    <MacWindow windowName={windowName} setWindowsState={setWindowsState} x={x} y={y}>
       <div className="cards">
          {githubData.map(project =>{
             return <GitCard data={project}/>
          })}
+         <div className="git-btn">
+          <a href="https://github.com/rudra" target="_blank" rel="noopener noreferrer">GitHub</a>
+         </div>
       </div>
+      
     </MacWindow>
   )
 }

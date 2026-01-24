@@ -1,15 +1,29 @@
 import './doc.scss'
-const doc = () => {
+const doc = ({windowsState, setWindowsState}) => {
   return (
     <footer className="dock">
-        <div className="icon github"><img src="./doc-icons/github.svg" alt="" /></div>
-        <div className="icon note"><img src="./doc-icons/note.svg" alt="" /></div>
-        <div className="icon pdf"><img src="./doc-icons/pdf.svg" alt="" /></div>
-        <div className="icon calender"><img src="./doc-icons/calender.svg" alt="" /></div>
-        <div className="icon spotify"><img src="./doc-icons/spotify.svg" alt="" /></div>
-        <div className="icon mail"><img src="./doc-icons/mail.svg" alt="" /></div>
-        <div className="icon link"><img src="./doc-icons/link.svg" alt="" /></div>
-        <div className="icon cli"><img src="./doc-icons/cli.svg" alt="" /></div>
+        <div 
+         onClick={()=>{setWindowsState(state =>({...state, github: !state.github}))}}
+         className="icon github"><img src="./doc-icons/github.svg" alt="" /></div>
+        <div 
+         onClick={()=>{setWindowsState(state =>({...state, note: !state.note}))}}
+         className="icon note"><img src="./doc-icons/note.svg" alt="" /></div>
+        <div 
+         onClick={()=>{setWindowsState(state =>({...state, resume: !state.resume}))}}
+         className="icon pdf"><img src="./doc-icons/pdf.svg" alt="" /></div>
+        <div 
+        onClick={()=>{window.open("https://calendar.google.com/calendar/u/0/r", "_blank")}}
+        className="icon calender"><img src="./doc-icons/calender.svg" alt="" /></div>
+        <div 
+         onClick={()=>{setWindowsState(state =>({...state, spotify: !state.spotify}))}}
+         className="icon spotify"><img src="./doc-icons/spotify.svg" alt="" /></div>
+        <div 
+        onClick={()=>{window.open("https://mail.google.com/mail/?view=cm&fs=1&to=rudranarayanmondal20@gmail.com", "_blank")}} 
+        className="icon mail"><img src="./doc-icons/mail.svg" alt="" /></div>
+        <div onClick={()=>{window.open("https://www.linkedin.com/in/rudra-narayan-mondal-80a464357/", "_blank")}} className="icon link"><img src="./doc-icons/link.svg" alt="" /></div>
+        <div 
+         onClick={()=>{setWindowsState(state =>({...state, cli: !state.cli}))}}
+         className="icon cli"><img src="./doc-icons/cli.svg" alt="" /></div>
     </footer>
   )
 }
