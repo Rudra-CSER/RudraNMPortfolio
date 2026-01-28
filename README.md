@@ -2,12 +2,12 @@
 
 A modern, macOS-inspired portfolio website showcasing my projects, skills, and professional journey. Built with React and Vite for optimal performance and developer experience.
 
-[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://macportfolio.onrender.com)
+[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://rnmacportfolio.onrender.com)
 [![React](https://img.shields.io/badge/React-19.2.0-blue)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-7.2.4-purple)](https://vitejs.dev/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-![Portfolio Preview](public/Mountainwall.avif)
+![Portfolio Preview](public/image.png)
 
 ---
 
@@ -133,10 +133,7 @@ B.Tech Computer Science Student | Full-Stack Developer | AI Enthusiast
 
 - **Languages**: Python, JavaScript, C++, SQL
 - **Frontend**: React, Next.js, HTML/CSS/JS
-- **Backend**: Node.js, Flask, REST APIs
-- **AI/ML**: NLP, Transformers, GPT-3.5
-- **Databases**: MongoDB, MySQL, Redis
-- **Tools**: Git, Linux, Vercel, Render, IBM Cloud
+
 
 ### 🏆 Featured Projects
 
@@ -155,8 +152,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## 📧 Contact
 
 - **Email**: rudranarayanmondal20@gmail.com
-- **GitHub**: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+- **GitHub**: [@YOUR_USERNAME](https://github.com/Rudra-CSER)
+- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/rudra-narayan-mondal-0b8b3b2b2)
 
 ---
 
